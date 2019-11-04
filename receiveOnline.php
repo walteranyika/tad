@@ -1,7 +1,7 @@
 <?php
 require 'conn.php';
 if (isset($_POST['data'])){
-    $data= $_GET['post'];
+    $data= $_POST['data'];
     $dataJson = json_decode($data);
     foreach ($dataJson as $item){
         $id = $item->id;
