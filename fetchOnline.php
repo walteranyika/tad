@@ -7,11 +7,9 @@ if (isset($_POST["date"]))
 }
 //$leo="2019-11-04";
 //$stm = $pdo->prepare("select staff.fname, staff.lname, staff.cnum, staff.deptname, staff_attendance.* from staff join staff_attendance on staff.pid=staff_attendance.pid where staff_attendance.attendance_date like ?");
-$stm = $pdo->prepare("select staff.pid,staff.fname, staff.lname, staff.cnum, staff.deptname,staff_attendance.id from staff join staff_attendance on staff.pid=staff_attendance.pid where staff_attendance.attendance_date like ?");
+$stm = $pdo->prepare("select staff.pid, staff_attendance.id,staff.fname, staff.lname, staff.cnum, staff.deptname from staff join staff_attendance on staff.pid=staff_attendance.pid where staff_attendance.attendance_date like ? group by staff.pid");
 $stm->execute([$leo.'%']);
 $results = $stm->fetchAll();
-
-
 foreach ($results as $result){
     $pid = $result->pid;
     $stm2 = $pdo->prepare('select attendance_date from staff_attendance where pid=? and attendance_date like ? order by attendance_date asc');

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe46e9c-c9bf-4006-884d-d3b835878842" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/conn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fetchOnline.php" beforeDir="false" afterPath="$PROJECT_DIR$/fetchOnline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadOnline.php" beforeDir="false" afterPath="$PROJECT_DIR$/uploadOnline.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fetchOnline.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -122,7 +120,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.uploadOnline.php">
+  <component name="RunManager" selected="PHP Script.fetchOnline.php">
+    <configuration name="fetchOnline.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/fetchOnline.php">
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <method v="2" />
     </configuration>
@@ -131,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.fetchOnline.php" />
         <item itemvalue="PHP Script.uploadOnline.php" />
         <item itemvalue="PHP Script.index.php" />
       </list>
@@ -150,23 +152,22 @@
       <workItem from="1571493064435" duration="9242000" />
       <workItem from="1572864597214" duration="5731000" />
       <workItem from="1572882429397" duration="2434000" />
-      <workItem from="1572950558313" duration="2110000" />
+      <workItem from="1572950558313" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4544000" />
+    <option name="totallyTimeSpent" value="5920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18030304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03560606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29139072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -174,7 +175,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27152318" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27152318" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -209,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fetchOnline.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
