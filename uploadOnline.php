@@ -6,7 +6,7 @@ $stm->execute([$leo.'%']);
 $results = $stm->fetchAll();
 $json = json_encode($results);
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "http://66......");
+curl_setopt($ch, CURLOPT_URL, "http://66.228.55.80:8000/digisch/tad/receiveOnline.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('data'=>$json)));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
