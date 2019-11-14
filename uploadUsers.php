@@ -1,8 +1,7 @@
 <?php
 require 'conn.php';
-$leo=date("Y-m-d");
-$stm = $pdo->prepare("select * from staff");
-$stm->execute([]);
+$stm = $pdo->prepare("select * from staff where id>?");
+$stm->execute([0]);
 $results = $stm->fetchAll();
 $json = json_encode($results);
 $ch = curl_init();

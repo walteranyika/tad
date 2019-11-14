@@ -12,7 +12,7 @@ if (isset($_POST['data'])){
         $deptname = $item->deptname;
         $gender = $item->gender;
         try{
-            $stm = $pdo->prepare('INSERT INTO `staff`(`pid`, `fname`, `lname`, `cnum`, `deptnum`, `deptname`, `gender`) VALUES (?,?,?,?,?,?,?,?)');
+            $stm = $pdo->prepare('INSERT INTO `staff`(`pid`, `fname`, `lname`, `cnum`, `deptnum`, `deptname`, `gender`) VALUES (?,?,?,?,?,?,?)');
             $stm->execute([$pid, $fname, $lname, $cnum, $deptnum, $deptname, $gender]);
         }catch (Exception $e){
 
